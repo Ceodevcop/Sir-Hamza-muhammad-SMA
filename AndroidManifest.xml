@@ -1,11 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapp"
-    android:versionCode="1"
-    android:versionName="1.0">
-    
+    package="com.example.sirhamzamuhammadsma">
+
     <application
-        android:label="MyApp"
-        android:icon="@drawable/icon">
+        android:allowBackup="true"
+        android:label="sirhamzamuhammadsma"
+        android:theme="@style/Theme.AppCompat.Light">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -14,4 +13,3 @@
         </activity>
     </application>
 </manifest>
-

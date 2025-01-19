@@ -20,12 +20,3 @@ android {
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
 }
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath "com.android.tools.build:gradle:8.0.0"
-    }
-}
